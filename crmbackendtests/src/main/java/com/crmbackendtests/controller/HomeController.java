@@ -70,6 +70,7 @@ public class HomeController {
 
 
     public void breakXML(String XML){
+        JSONObject jo = new JSONObject();
 //        System.out.println(ANSI_GREEN+XML);
         JSONObject req = new JSONObject();
 
@@ -97,17 +98,16 @@ public class HomeController {
             JSONObject objects2 = (JSONObject) json.get(0);
             JSONObject objects3 = (JSONObject) json.get(1);
 //            System.out.println(ANSI_GREEN+objects2.getClass().getName());
-            JSONObject jo = new JSONObject();
 
-            String names = objects2.getString("content");
-            String values = objects3.getString("content");
-            jo.put(names,values);
-            System.out.println(ANSI_GREEN+names);
-            System.out.println(ANSI_BLUE+values);
-            System.out.println(ANSI_PURPLE+jo);
+             String name = objects2.getString("content");
+             String value = objects3.getString("content");
+             jo.put(name,value);
+            System.out.println(ANSI_GREEN+name);
+            System.out.println(ANSI_BLUE+value);
         }
 //        System.out.println(ANSI_GREEN+data.length());
 //        System.out.println(ANSI_GREEN+getEmail);
+        System.out.println(ANSI_PURPLE+jo);
 
     }
 }
