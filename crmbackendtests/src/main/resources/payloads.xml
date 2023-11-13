@@ -1,0 +1,53 @@
+<!--String request = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"-->
+<!--        + "<siebel-xmlext-fields-ret>\n"-->
+<!--    +    "<support field=\"requestRefId\"/>\n"-->
+<!--    +     "<support field=\"responseCode\"/>\n"-->
+<!--    +     "<support field=\"responseMessage\"/>\n"-->
+<!--    +     "<support field=\"customerMessage\"/>\n"-->
+<!--    +     "<support field=\"timestamp\"/>\n"-->
+<!--    +     "<support field=\"emailAddress\"/>\n"-->
+<!--    +     "<support field=\"mySafId\"/>\n"-->
+<!--    +     "<support field=\"firstName\"/>\n"-->
+<!--    +     "<support field=\"otherNames\"/>\n"-->
+<!--    +     "<support field=\"name\"/>\n"-->
+<!--    +     "<support field=\"status\"/>\n"-->
+<!--    +     "<support field=\"msisdn\"/>\n"-->
+<!--    +     "<support field=\"fieldType\"/>\n"-->
+<!--    +     "<support field=\"body\"/>\n"-->
+<!--    +     "<support field=\"userName\"/>\n"-->
+<!--    +     "<support field=\"reason\"/>\n"-->
+<!--    +     "<support field=\"identificationDocumentValue\"/>\n"-->
+<!--    +     "<support field=\"blockedUnblockedBy\"/>\n"-->
+<!--    +     "<support field=\"blockedUnblockedAt\"/>\n"-->
+<!--    + "<siebel-xmlext-fields-ret>\n";-->
+
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<siebel-xmlext-query-req>-->
+<!--    <buscomp id="31">SAF DIGITAL IDENTITY VBC</buscomp>-->
+<!--    <search-string>([emailAddress] = " = silvesterwanjiru@gmail.com" AND [userName] = "BKMUTAI" AND [fieldType] = "resentLink" AND ([msisdn] = "700184608")</search-string>-->
+<!--    <match field="msisdn">700184608</match>-->
+<!--    <search-spec>-->
+<!--        <node node-type="Binary Operator">-->
+<!--            <node node-type="Binary Operator">-->
+<!--                <node node-type="Binary Operator">-->
+<!--                    <node node-type="Identifier">emailAddress</node>-->
+<!--                    <node node-type="Constant" value-type="TEXT">silvesterwanjiru@gmail.com</node>-->
+<!--                </node>-->
+<!--                <node node-type="Binary Operator">-->
+<!--                    <node node-type="Identifier">userName</node>-->
+<!--                    <node node-type="Constant" value-type="TEXT">BKMUTAI</node>-->
+<!--                </node>-->
+<!--                <node node-type="Binary Operator">-->
+<!--                    <node node-type="Identifier">fieldType</node>-->
+<!--                    <node node-type="Constant" value-type="TEXT">resentLink</node>-->
+<!--                </node>-->
+<!--            </node>-->
+<!--            <node node-type="Binary Operator">-->
+<!--                <node node-type="Identifier">msisdn</node>-->
+<!--                <node node-type="Constant" value-type="TEXT">700184608</node>-->
+<!--            </node>-->
+<!--        </node>-->
+<!--    </search-spec>-->
+<!--</siebel-xmlext-query-req>-->
